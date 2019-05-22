@@ -1,0 +1,206 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 20,
+            "value": "#\t\t\t| \"Albania\" \t\t\t|\t\"Germany\"  \t\t\t\t| \t\"English\"\t\t\t|"
+          },
+          {
+            "line": 21,
+            "value": "#\t\t\t| \"Jordan\" \t\t\t\t|\t\"United States\"   |\t\t\"English\"\t\t\t|"
+          },
+          {
+            "line": 22,
+            "value": "#\t\t\t| \"India\" \t\t\t\t|\t\"Switzerland\"    \t|\t\t\"English\"\t\t\t|"
+          }
+        ],
+        "line": 23,
+        "name": "Navigate to money Transfer Page",
+        "description": "",
+        "id": "worldremit-send-money;navigate-to-money-transfer-page;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 260840300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I navigate to World Remit Hompage \"WorldRemitURL\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "WorldRemitURL",
+                  "offset": 35
+                }
+              ],
+              "location": "stepDefinition.i_navigate_to_World_Remit_Hompage(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 380392600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I validate objects on World Remit Homepage",
+            "match": {
+              "location": "stepDefinition.i_validate_objects_on_Homepage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 80359500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I select send from country as \"United Kingdom\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "United Kingdom",
+                  "offset": 31
+                }
+              ],
+              "location": "stepDefinition.i_select_send_from_country_as(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 57192400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I select language as \"English\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "English",
+                  "offset": 22
+                }
+              ],
+              "location": "stepDefinition.i_select_language_as(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 53150500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should verify user select Country as \"Philippines\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Philippines",
+                  "offset": 40
+                }
+              ],
+              "location": "stepDefinition.i_should_verify_user_select_Country_as(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1538892700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I start the money sending process",
+            "match": {
+              "location": "stepDefinition.i_start_the_money_sending_process()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 132158500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I validate objects on Send Money Page",
+            "match": {
+              "location": "stepDefinition.i_validate_objects_on_send_money_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1043485400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I should see money transfer page for \"Philippines\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Philippines",
+                  "offset": 38
+                }
+              ],
+              "location": "stepDefinition.i_should_see_money_transfer_page(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@ui"
+          },
+          {
+            "line": 1,
+            "name": "@worldRemit"
+          },
+          {
+            "line": 4,
+            "name": "@story_id"
+          },
+          {
+            "line": 1,
+            "name": "@sendMoney"
+          }
+        ]
+      }
+    ],
+    "name": "WorldRemit Send Money",
+    "description": "",
+    "id": "worldremit-send-money",
+    "keyword": "Feature",
+    "uri": "WorldRemitSendMoney.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@sendMoney"
+      },
+      {
+        "line": 1,
+        "name": "@ui"
+      },
+      {
+        "line": 1,
+        "name": "@worldRemit"
+      }
+    ]
+  }
+]

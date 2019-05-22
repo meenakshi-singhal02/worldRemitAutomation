@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="14462" started-at="2019-05-22T13:40:18Z" finished-at="2019-05-22T13:40:32Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:automation.worldremit.stepdefinitions.RunnerTest2@706a04ae]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:automation.worldremit.stepdefinitions.RunnerTest@3578436e]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test" duration-ms="14462" started-at="2019-05-22T13:40:18Z" finished-at="2019-05-22T13:40:32Z">
+      <class name="automation.worldremit.stepdefinitions.RunnerTest2">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:automation.worldremit.stepdefinitions.RunnerTest2@706a04ae]" name="setUpClass" is-config="true" duration-ms="16" started-at="2019-05-22T13:40:28Z" finished-at="2019-05-22T13:40:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:automation.worldremit.stepdefinitions.RunnerTest2@706a04ae]" name="feature" duration-ms="3556" started-at="2019-05-22T13:40:28Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-05-22T13:40:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[WorldRemit Send Money]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:automation.worldremit.stepdefinitions.RunnerTest2@706a04ae]" name="tearDownClass" is-config="true" duration-ms="4" started-at="2019-05-22T13:40:32Z" finished-at="2019-05-22T13:40:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- automation.worldremit.stepdefinitions.RunnerTest2 -->
+      <class name="automation.worldremit.stepdefinitions.RunnerTest">
+        <test-method status="PASS" signature="initDriver(java.lang.String)[pri:0, instance:automation.worldremit.stepdefinitions.RunnerTest@3578436e]" name="initDriver" is-config="true" duration-ms="4200" started-at="2019-05-22T13:40:18Z" finished-at="2019-05-22T13:40:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:automation.worldremit.stepdefinitions.RunnerTest@3578436e]" name="setUpClass" is-config="true" duration-ms="154" started-at="2019-05-22T13:40:22Z" finished-at="2019-05-22T13:40:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:automation.worldremit.stepdefinitions.RunnerTest@3578436e]" name="feature" duration-ms="5785" started-at="2019-05-22T13:40:22Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-05-22T13:40:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[WorldRemit Send Money]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:automation.worldremit.stepdefinitions.RunnerTest@3578436e]" name="tearDownClass" is-config="true" duration-ms="7" started-at="2019-05-22T13:40:28Z" finished-at="2019-05-22T13:40:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:automation.worldremit.stepdefinitions.RunnerTest@3578436e]" name="TearDown" is-config="true" duration-ms="683" started-at="2019-05-22T13:40:32Z" finished-at="2019-05-22T13:40:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- automation.worldremit.stepdefinitions.RunnerTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

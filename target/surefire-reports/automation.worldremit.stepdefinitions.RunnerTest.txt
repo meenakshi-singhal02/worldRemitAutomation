@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: automation.worldremit.stepdefinitions.RunnerTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 17.901 sec - in automation.worldremit.stepdefinitions.RunnerTest
